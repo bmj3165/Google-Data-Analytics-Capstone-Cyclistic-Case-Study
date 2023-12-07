@@ -62,11 +62,47 @@ Below is table showing the different column names and their datatypes
 
 The following table shows the number of null values contained in each column
 
-![image](https://github.com/bmj3165/Google-Data-Analytics-Capstone-Cyclistic-Case-Study/assets/77288897/ab941648-5707-482a-a783-7a0f3e720c27)
+![image](https://github.com/bmj3165/Google-Data-Analytics-Capstone-Cyclistic-Case-Study/assets/77288897/dc38c614-7775-43e7-8a66-45a8c8eb6891)
 ![image](https://github.com/bmj3165/Google-Data-Analytics-Capstone-Cyclistic-Case-Study/assets/77288897/874f5332-849f-44fc-9a03-d079119cb010)
 
 Checking for duplicates using the primary key ride_id as there are no null values contained in this column
 ![image](https://github.com/bmj3165/Google-Data-Analytics-Capstone-Cyclistic-Case-Study/assets/77288897/cd880bbf-c26c-4eba-9100-7f35c201af81)
+
+## Cleaning
+
+1. All rows containing null values were removed from the dataset
+2. Three new columns were added: ride_length to show the duration of the trip, day_of_week and month.
+3. Trips that were less then a minute and longer then twenty-four hours were removed
+
+## Analyze and Share
+SQL Query:[Data Analysis](https://github.com/bmj3165/Google-Data-Analytics-Capstone-Cyclistic-Case-Study/blob/main/Data%20Analysis.sql)
+Data Visualization:[Tableau](https://public.tableau.com/views/CyclisticCaseStudyGoogleDataAnalyticsCapstone/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link)
+
+First we take a look at the amount of member riders and casual riders
+![image](https://github.com/bmj3165/Google-Data-Analytics-Capstone-Cyclistic-Case-Study/assets/77288897/6b191c78-ca23-42f8-a9b6-270920317a8b)
+
+Here we can see that memeber riders make a majority of the riders
+
+Now we'll take a look at the number of trips users take on a monthly and daily basis
+
+![image](https://github.com/bmj3165/Google-Data-Analytics-Capstone-Cyclistic-Case-Study/assets/77288897/023a26bc-eb41-40f2-a19e-b2bd0ed23200)
+
+![image](https://github.com/bmj3165/Google-Data-Analytics-Capstone-Cyclistic-Case-Study/assets/77288897/57288884-ac76-4c26-9ab7-8554a024ee95)
+
+
+We can see that both on daily and monthly basis that member riders are taking more rides then casual users
+
+Here we can see the average ride duration
+![image](https://github.com/bmj3165/Google-Data-Analytics-Capstone-Cyclistic-Case-Study/assets/77288897/039fd0f5-658c-478d-a0fc-55a7e8855d5b)
+
+Although member riders may take more trips we can see the causal riders on average take longer trips
+
+Here we take a long at the average ride duration per day and month
+![image](https://github.com/bmj3165/Google-Data-Analytics-Capstone-Cyclistic-Case-Study/assets/77288897/a4fb1db0-77db-4285-b317-43807f462d3f)
+![image](https://github.com/bmj3165/Google-Data-Analytics-Capstone-Cyclistic-Case-Study/assets/77288897/6622a7d7-e2b4-4a31-85b8-9292cf2b7d11)
+
+
+
 
 
 
