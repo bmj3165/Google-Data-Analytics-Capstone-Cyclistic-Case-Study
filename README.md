@@ -1,6 +1,6 @@
 # Google Data Analytics Capstone: Cyclistic Case Study
 
-### Qucik links:
+### Quick links:
 
 Data Source: [divvy_tripdata](https://divvy-tripdata.s3.amazonaws.com/index.html)
 
@@ -49,6 +49,29 @@ The data has been provided by Motivate International Inc under this [license](ht
 I will be using Bigquery to combine and clean the data, as the dataset is rather large and excel would not be able to handle the large dataset efficiently.
 Before loading the data, I first created two new columns in each CSV file, ride_length which stored the duration of each trip and day_of_week which provided the day of the week in which the trip took place. 
 I combined all the files into one table and named it combined_tripdata from there I determined if there are any duplicates using the ride_id as the main identifier. After verifying there are no duplicates I then proceeded to determine if there are any null values. Once identified I removed the entries that contained nulls as well as entries that had a ride duration less then one minute or more then twenty-four hours from the dataset, therefore taking are data set from 1,585,555 rows to 1,157,585 entries.
+
+## Combining Data
+SQL Query: [Data Combining](https://github.com/bmj3165/Google-Data-Analytics-Capstone-Cyclistic-Case-Study/blob/main/Data%20Combining.sql)
+6 CSV files were uploaded as tables in the dataset "6_month_data" and combinied into table named "combined_tripdata" containing 1,585,555 rows of data for a six month time period.
+
+## Data Exploration
+SQL Query:[Data Exploration](https://github.com/bmj3165/Google-Data-Analytics-Capstone-Cyclistic-Case-Study/blob/main/Data%20Exploration.sql)
+
+Below is table showing the different column names and their datatypes
+![image](https://github.com/bmj3165/Google-Data-Analytics-Capstone-Cyclistic-Case-Study/assets/77288897/4a5d0240-682b-49ed-8bc8-c8f8ca39428a)
+
+The following table shows the number of null values contained in each column
+
+![image](https://github.com/bmj3165/Google-Data-Analytics-Capstone-Cyclistic-Case-Study/assets/77288897/ab941648-5707-482a-a783-7a0f3e720c27)
+![image](https://github.com/bmj3165/Google-Data-Analytics-Capstone-Cyclistic-Case-Study/assets/77288897/874f5332-849f-44fc-9a03-d079119cb010)
+
+Checking for duplicates using the primary key ride_id as there are no null values contained in this column
+![image](https://github.com/bmj3165/Google-Data-Analytics-Capstone-Cyclistic-Case-Study/assets/77288897/cd880bbf-c26c-4eba-9100-7f35c201af81)
+
+
+
+
+
 
 
 
