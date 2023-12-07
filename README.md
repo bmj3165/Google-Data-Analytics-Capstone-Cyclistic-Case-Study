@@ -79,7 +79,8 @@ SQL Query:[Data Analysis](https://github.com/bmj3165/Google-Data-Analytics-Capst
 Data Visualization:[Tableau](https://public.tableau.com/views/CyclisticCaseStudyGoogleDataAnalyticsCapstone/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link)
 
 First we take a look at the amount of member riders and casual riders
-<img align="left" width="100" height="100" src="![image](https://github.com/bmj3165/Google-Data-Analytics-Capstone-Cyclistic-Case-Study/assets/77288897/6b191c78-ca23-42f8-a9b6-270920317a8b)">
+![image](https://github.com/bmj3165/Google-Data-Analytics-Capstone-Cyclistic-Case-Study/assets/77288897/f00bb93b-c06e-4999-9754-8a3be46e6978)
+
 
 Here we can see that memeber riders make a majority of the riders
 
