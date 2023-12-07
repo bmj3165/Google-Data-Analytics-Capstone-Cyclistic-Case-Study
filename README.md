@@ -93,6 +93,7 @@ Now we'll take a look at the number of trips users take on a monthly and daily b
 We can see that both on daily and monthly basis that member riders are taking more rides then casual users
 
 Here we can see the average ride duration
+
 ![image](https://github.com/bmj3165/Google-Data-Analytics-Capstone-Cyclistic-Case-Study/assets/77288897/039fd0f5-658c-478d-a0fc-55a7e8855d5b)
 
 Although member riders may take more trips we can see the causal riders on average take longer trips
