@@ -103,6 +103,10 @@ Here we take a long at the average ride duration per day and month
 ![image](https://github.com/bmj3165/Google-Data-Analytics-Capstone-Cyclistic-Case-Study/assets/77288897/a4fb1db0-77db-4285-b317-43807f462d3f)
 ![image](https://github.com/bmj3165/Google-Data-Analytics-Capstone-Cyclistic-Case-Study/assets/77288897/6622a7d7-e2b4-4a31-85b8-9292cf2b7d11)
 
+## Act
+
+We see that casual user tend to take longer trips on average compared to members, Cyclistic could advertise to causal users the savings they could have if the switched to a membership. Prior to completeing the transaction for the ride the app could show the savings the user would have if they had a membership.
+As well riders tend to take trips more trips on the weekends, Cyclistic could offer to new membership holders discounted rates for weekend rides.
 
 
 
